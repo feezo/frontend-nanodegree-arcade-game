@@ -83,12 +83,12 @@ Player.prototype.handleInput = function (keyPress){
     this.x += 102;
   }
   if (keyPress == "up" && this.y > 0){
-    this.y -= 83;
+    this.y -= 81;
   }
   if (keyPress == "down" && this.y < 405){
-  this.y += 83;
+  this.y += 81;
   }
-  if (this.y < 0) {
+  if (this.y <= 0) {
     setTimeout(function(){
       player.x = 202;
       player.y = 405;
@@ -97,7 +97,7 @@ Player.prototype.handleInput = function (keyPress){
 }
 
 Player.prototype.win = function() {
-if (this.y < 0 ){
+if (this.y <= 0 ){
   //display a win message
   ctx.font = '40pt Arial';
   ctx.fillStyle = 'black';
