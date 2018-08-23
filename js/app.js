@@ -75,7 +75,7 @@ class Player {
         //display a win message
         ctx.font = '40pt Arial';
         ctx.fillStyle = 'black';
-        ctx.fillText('WIN MESSAGE', 50, 50);
+        ctx.fillText('YOU WON', 50, 50);
       }
   }
 }

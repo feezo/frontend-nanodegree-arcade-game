@@ -1,6 +1,22 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic Arcade Game
+This is a simple fun game designed to help you take time off hard tasks, relax and get your thoughts together.
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Getting Started
+To start the game all one have to do is click arrow buttons for movement, for example to move the player left click the left arrow on the keyboard. The bugs moving across the screen are the enemy and little fella at the bottom is the player trying to get to water unscathed. Any collision send the player back to bottom
+
+
+
+## Playing
+You can play the game by clicking on this link  (http://127.0.0.1:3000/)
+
+## Built With
+- Javascript
+
+
+## Author
+- Hafis Jimoh
+
+## Acknowledgement
+- Udacity mentor
+- Slack channels
