@@ -72,6 +72,7 @@ enemyLocation.forEach (function (locationY) {
 
 Player.prototype.render = function () {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
+    this.win();
 }
 
 Player.prototype.handleInput = function (keyPress){
@@ -93,15 +94,14 @@ Player.prototype.handleInput = function (keyPress){
       player.y = 405;
     },600);
   }
-  this.win();
 }
 
 Player.prototype.win = function() {
-if (this.x <= 80 ){
+if (this.y < 0 ){
   //display a win message
   ctx.font = '40pt Arial';
   ctx.fillStyle = 'black';
-  ctx.fillText('WIN MESSAGE', 50, 50);
+  ctx.fillText('YOU WON', 50, 150);
 }
 };
 
