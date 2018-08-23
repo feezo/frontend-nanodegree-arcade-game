@@ -61,9 +61,14 @@ enemyLocation.forEach (function (locationY) {
 })
 
 
-Player.prototype.update = function (dt) {
+/*Player.prototype.update = function (dt) {
 
-}
+
+      //update player to starting position
+      this.x = 202;
+      this.y = 405;
+
+}*/
 
 Player.prototype.render = function () {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
@@ -88,7 +93,17 @@ Player.prototype.handleInput = function (keyPress){
       player.y = 405;
     },600);
   }
+  this.win();
 }
+
+Player.prototype.win = function() {
+if (this.x <= 80 ){
+  //display a win message
+  ctx.font = '40pt Arial';
+  ctx.fillStyle = 'black';
+  ctx.fillText('WIN MESSAGE', 50, 50);
+}
+};
 
 
 // This listens for key presses and sends the keys to your
