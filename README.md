@@ -7,8 +7,10 @@ To start the game all one have to do is click arrow buttons for movement, for ex
 
 
 
-## Playing
-You can play the game by clicking on this link  (http://127.0.0.1:3000/)
+## How to play
+Load the `index.html` in a modern web browser that supports HTML5.
+Load the `index.html` in a modern web browser that supports HTML5, served from
+a web server
 
 ## Built With
 - Javascript

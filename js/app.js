@@ -1,3 +1,4 @@
+
 // Enemies our player must avoid
 class Enemy {
   constructor(x, y, speed) {
